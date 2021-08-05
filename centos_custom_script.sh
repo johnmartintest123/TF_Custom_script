@@ -4,6 +4,7 @@
 # Creates a user
 # Gives the user admin privileges
 # Removes the user's Password
+# Enables SSH via PEM file authentication
 
 username=$1
 public_key=$2
