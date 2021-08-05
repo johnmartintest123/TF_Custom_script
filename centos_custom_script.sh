@@ -11,8 +11,6 @@ public_key=$2
 
 sudo adduser -g wheel $username
 
-#sudo setfacl -Rm u:rootuser:rwx /home/$username
-
 sudo mkdir /home/$username/.ssh
 
 sudo setfacl -Rm u:rootuser:rwx /home/$username
