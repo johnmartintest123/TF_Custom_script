@@ -8,7 +8,7 @@
 username=$1
 public_key=$2
 
-sudo adduser $username
+sudo adduser -g wheel $username
 
 #sudo setfacl -Rm u:rootuser:rwx /home/$username
 
