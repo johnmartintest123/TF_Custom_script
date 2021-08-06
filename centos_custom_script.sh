@@ -9,7 +9,9 @@
 username=$1
 public_key=$2
 
-sudo adduser -g wheel $username
+sudo adduser $username
+
+sudo usermod -aG wheel $username
 
 sudo mkdir /home/$username/.ssh
 
